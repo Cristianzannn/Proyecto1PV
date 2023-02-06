@@ -654,6 +654,19 @@
           }
         }
       },
+      "MiniValidation/0.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MiniValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MiniValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -2116,6 +2129,22 @@
         "version.txt"
       ]
     },
+    "MiniValidation/0.7.2": {
+      "sha512": "5OVWsUw6q5doL63Ki7JdlXD62C5N1eO7YNxxbIdN7nQk53l10juVkFSYoKFmLenL8qpNmoyU6OwEr4MulaibBw==",
+      "type": "package",
+      "path": "minivalidation/0.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/MiniValidation.dll",
+        "lib/net6.0/MiniValidation.xml",
+        "lib/netstandard2.0/MiniValidation.dll",
+        "lib/netstandard2.0/MiniValidation.xml",
+        "minivalidation.0.7.2.nupkg.sha512",
+        "minivalidation.nuspec"
+      ]
+    },
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -3505,28 +3534,24 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.2"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
+      "MiniValidation >= 0.7.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ETC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Daiber CB\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ETC\\Documents\\Proyectos cuatr1 2023\\Proyecto1PrograV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Daiber CB\\source\\repos\\Proyecto1PV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj",
       "projectName": "ProyectoApi.DataAccess",
-      "projectPath": "C:\\Users\\ETC\\Documents\\Proyectos cuatr1 2023\\Proyecto1PrograV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\ETC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ETC\\Documents\\Proyectos cuatr1 2023\\Proyecto1PrograV\\ProyectoApi.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\Daiber CB\\source\\repos\\Proyecto1PV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Daiber CB\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Daiber CB\\source\\repos\\Proyecto1PV\\ProyectoApi.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ETC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Daiber CB\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3534,7 +3559,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3562,6 +3586,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.2, )"
+          },
+          "MiniValidation": {
+            "target": "Package",
+            "version": "[0.7.2, )"
           }
         },
         "imports": [
@@ -3580,7 +3608,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ETC\\Documents\\Proyectos cuatr1 2023\\Proyecto1PrograV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj": {}
+    "C:\\Users\\Daiber CB\\source\\repos\\Proyecto1PV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ETC\\Documents\\Proyectos cuatr1 2023\\Proyecto1PrograV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj": {
+    "C:\\Users\\Daiber CB\\source\\repos\\Proyecto1PV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ETC\\Documents\\Proyectos cuatr1 2023\\Proyecto1PrograV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Daiber CB\\source\\repos\\Proyecto1PV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj",
         "projectName": "ProyectoApi.DataAccess",
-        "projectPath": "C:\\Users\\ETC\\Documents\\Proyectos cuatr1 2023\\Proyecto1PrograV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ETC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ETC\\Documents\\Proyectos cuatr1 2023\\Proyecto1PrograV\\ProyectoApi.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Daiber CB\\source\\repos\\Proyecto1PV\\ProyectoApi.DataAccess\\ProyectoApi.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Daiber CB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daiber CB\\source\\repos\\Proyecto1PV\\ProyectoApi.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ETC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Daiber CB\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,6 +49,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "MiniValidation": {
+              "target": "Package",
+              "version": "[0.7.2, )"
             }
           },
           "imports": [
@@ -72,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
